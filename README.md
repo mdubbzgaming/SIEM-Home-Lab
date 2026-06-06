@@ -32,7 +32,7 @@ The lab environment consisted of three main components:
 
 
 ### 3. Attack Simulation
-* Utilized **Nmap** (`nmap -p 22 -Pn <Target_IP>`) to verify the SSH port was open and actively accepting connections.
+* Utilized **Nmap** (`nmap -p 22 -Pn 10.0.2.8`) to verify the SSH port was open and actively accepting connections.
 * Executed an SSH brute-force attack using **Hydra** paired with the `rockyou.txt` password dictionary.
 
 !<img width="975" height="387" alt="image" src="https://github.com/user-attachments/assets/3254f18b-1fd6-45b7-9e18-962383796213" />
